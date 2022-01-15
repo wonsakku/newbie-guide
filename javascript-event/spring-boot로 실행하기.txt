@@ -1,0 +1,4 @@
+static 폴더에 index.html로 넣으면 
+localhost:8080으로 접속 시 해당 html이 실행된다.
+다른 컨트롤러가 없어도 path가 /일 경우 static > index.html 을 호출해준다.
+만약 path가 /를 매핑해주는 컨트롤러가 있다면 해당 컨트롤러가 동작해서 RestBody든 View 페이지든 response 해준다.
